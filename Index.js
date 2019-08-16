@@ -16,13 +16,13 @@
 // My address is Memphis, TN.
 
 
-// let my_name = "Kevin";
-// let my_id = "2112";
-// let my_address = "Memphis,TN";
-// let nameTemp = `My name is ${my_name}
-// My id is ${my_id}.
-// My address is ${my_address}.`;
-// alert(nameTemp);
+let my_name = "Kevin";
+let my_id = "2112";
+let my_address = "Memphis,TN";
+let nameTemp = `My name is ${my_name}
+My id is ${my_id}.
+My address is ${my_address}.`;
+alert(nameTemp);
 
 
 //     Exercise 2:
@@ -35,10 +35,10 @@
 //
 // Congratulations 1_M_l337! !!, your score is 9001.
 
-// var contestant = "1_M_l337";
-// var score = "9001";
-// let sTemp = `Congratulations ${contestant}! !!, your score is ${score}.`;
-// alert(sTemp);
+var contestant = "1_M_l337";
+var score = "9001";
+let sTemp = `Congratulations ${contestant}! !!, your score is ${score}.`;
+alert(sTemp);
 
 // Exercise 3:
 //
@@ -83,6 +83,7 @@ let listing =
                 }
 
             ];
+// you should use a nested loop to iterate through the array
 let fullList =`SCHOOL PARENT LISTING
 Parent's Name:${listing[0].Name}
 Children:
